@@ -1,6 +1,6 @@
 Fly myBug = new Fly();
 Fly b = new Fly();
-
+boolean red = false;
 PImage bg;
 
 Fly[] allthebugs = new Fly[2];
@@ -25,6 +25,7 @@ void draw() {
   for (int i=0; i<allthebugs.length; i++) {
     allthebugs[i].display();
     allthebugs[i].move();
+
   }
   
   b.display();
